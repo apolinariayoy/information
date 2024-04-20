@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="img/logo.jpg" alt="">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="img/calendar-svgrepo-com.svg" alt="">
+                        <p>тренажёры</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index2.html">
+                        <img src="img/record-svgrepo-com.svg" alt="">
+                        <p>задания</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="examples">
+        <ul>
+            <h1 class="slf">Квадратные уравнения</h1>
+            <li>
+                <h4>ax<sup>2</sup> + bx + c = 0</h4>
+                <h4>где x переменная,a,b,c &mdash; некоторые числа, причём a &ne; 0</h4>
+            </li>
+            <h1 class="slf">Неполные квадратные уравнения</h1>
+            <li>
+                <img src="img/table.png" alt="">
+            </li>
+        </ul>
+    </section>
+    <section class="examples">
+        <ul>
+            <h1 class="slf">Дискреминант,D</h1>
+            <li>
+                <h4>ax<sup>2</sup> + bx + c = 0,</h4>
+                <h4>D = b<sup>2</sup> &minus; 4ac</h4>
+                <h4>Если D > 0 , то уравнение имеет два корня x = (&minus;b &minus; &radic; D) : 2a, x = (&minus;b +
+                    &radic; D) : 2a</h4>
+                <h4>Если D = 0 , то уравнение имеет один корень x = &minus;b : 2a</h4>
+                <h4>Если D < 0 , то уравнение не имеет корней</h4>
+            </li>
+        </ul>
+    </section>
+    <section class="examples">
+        <ul>
+            <h1 class="slf">Теорема Виета</h1>
+            <li>
+                <h4>Сумма корней приведенного квадратного уравнения равна второму коэффициенту, взятому с
+                    противоположным знаком, а произведение корней равно свободному коэффициенту:</h4>
+                <h4>x<sub>1</sub> &bull; x<sub>2</sub> = c : a</h4>
+                <h4>x<sub>1</sub> + x<sub>2</sub> = &minus;b : a</h4>
+            </li>
+        </ul>
+    </section>
+    <section class="examples">
+        <ul>
+            <h1 class="slf">Задача</h1>
+            <li>
+                <h4>
+                    x<sup>2</sup> - 5x + 4 = 0
+                </h4>
+            </li>
+            <li>
+                <button onclick="f()">Решение</button>
+                <h4 id="p"></h4>
+                <h4 id="p1"></h4>
+                <h4 id="p2"></h4>
+                <h4 id="p3"></h4>
+            </li>
+        </ul>
+    </section>
+    <script src="javascript2.js"></script>
